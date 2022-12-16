@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="calculator.css">
+
+</head>
+<body>
+    
+    <section>
+        <div class="hesapMakinesi">
+            <input type="text" class="calculatorInput" id="hesapla">
+    
+            <div class="operatorler">
+                <button type="button" class="operator" value="+" onclick="calculatorInput('+')">+</button>
+                <button type="button" class="operator" value="-" onclick="calculatorInput('-')">-</button>
+                <button type="button" class="operator" value="*" onclick="calculatorInput('*')">x</button>
+                <button type="button" class="operator" value="/" onclick="calculatorInput('/')">/</button>
+    
+                <button type="button" class="buton" value="7" onclick="calculatorInput('7')">7</button>
+                <button type="button" class="buton" value="8" onclick="calculatorInput('8')">8</button>
+                <button type="button" class="buton" value="9" onclick="calculatorInput('9')">9</button>
+    
+                <button type="button" class="buton" value="4" onclick="calculatorInput('4')">4</button>
+                <button type="button" class="buton" value="5" onclick="calculatorInput('5')">5</button>
+                <button type="button" class="buton" value="6" onclick="calculatorInput('6')">6</button>
+                
+                <button type="button" class="buton" value="1" onclick="calculatorInput('1')">1</button>
+                <button type="button" class="buton" value="2" onclick="calculatorInput('2')">2</button>
+                <button type="button" class="buton" value="3" onclick="calculatorInput('3')">3</button>
+    
+                <button type="button" class="buton operator" value="." onclick="calculatorInput('.')">.</button>
+                <button type="button" class="buton" value="0" onclick="calculatorInput('0')">0</button>
+                <button type="button" class="clear" onclick="clr()" value="C" >C</button>    
+                <button type="button" onclick="solve()" class="equal-sign" value="=">=</button>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <script src="calculator.js"></script>
+
+</body>
+</html>

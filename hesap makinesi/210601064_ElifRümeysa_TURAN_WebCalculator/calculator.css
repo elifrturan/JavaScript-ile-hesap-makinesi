@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body{
+    font-size: 1.2rem;
+    background-color: burlywood;
+}
+
+.hesapMakinesi{
+    border: 2px solid black;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 5px;
+    border-style: groove;
+    background-color: ghostwhite;
+}
+
+.calculatorInput{
+    width: 100%;
+    font-size: 4rem;
+    height: 70px;
+    background-color: white ;
+    color: black;
+    text-align: right;
+    padding: 0px 20px;
+    border-style: outset;
+    border-color: rgba(148, 48, 11, 0.637);
+}
+.buton{
+    height: 60px;
+    background-color: ghostwhite;
+    border-style: outset;
+    border-color: rgba(148, 48, 11, 0.637);
+    font-size: 3.5rem;
+    color: darkred;
+
+}
+.operator{
+    height: 60px;
+    background-color: darkseagreen;
+    border-style: outset;
+    border-color: rgba(148, 48, 11, 0.637);
+    font-size: 4.5rem;
+    color: black;
+    text-align: center;
+    padding-top: 5px;
+}
+.buton:hover{
+    background-color: burlywood;
+}
+
+.clear{
+    background-color: peru;
+    border-style: outset;
+    border-color: rgba(148, 48, 11, 0.637);
+    color: #fff;
+    font-size: 3.5rem;
+    color: black;
+    
+    
+}
+.equal-sign{
+    background-color: brown;
+    color: wheat;
+    grid-area: 2/4/6/5;
+    font-size: 5.5rem;
+    border-style: outset;
+    border-color: rgba(148, 48, 11, 0.637);
+    
+}
+.operatorler{
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    height: 300px;
+    
+}
